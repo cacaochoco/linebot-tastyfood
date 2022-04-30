@@ -20,13 +20,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-++&)uq=m5m#6j%hytd#umy5k&!=(0j@csy#$hfb%wh22zov#32'
+SECRET_KEY = 'django-insecure'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '1266-36-225-62-165.jp.ngrok.io' #允許的網域名稱
+    'xxx.ngrok.io' #允許的網域名稱
 ]
 
 
@@ -126,6 +126,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-LINE_CHANNEL_ACCESS_TOKEN = 'NxoN3SJ0Slx+EqRUk5Jf3fPyZNP8YBPwLmxO5Qrv8ZyTYJa0zfUOCkRb51sm2xSzdfFRdWBr6Dv2h1a/PGmoBpZMp1XpIRqeaQYxAgm1t4PlUpOY5f6bC5nGQ12mbSQaEchajUbIpLl6PPxrIgG6pAdB04t89/1O/w1cDnyilFU='
+LINE_CHANNEL_ACCESS_TOKEN = 'Your LINE CHANNEL ACCESS_TOKEN'
  
-LINE_CHANNEL_SECRET = '7d13eaaf27b994f32fd009fd6a37307c'
+LINE_CHANNEL_SECRET = 'Your LINE CHANNEL SECRET '
